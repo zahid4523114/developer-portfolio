@@ -48,4 +48,41 @@ span {
   background-image: url("images/dream-bg.png");
   background-repeat: no-repeat;
   background-position: right;
+  margin-bottom: 150px;
+}
+.experiences {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-bottom: 150px;
+}
+.xp-container {
+  display: flex;
+  padding: 2%;
+}
+
+.lr-content {
+  width: 50%;
+  padding: 40px;
+  margin-left: 5%;
+  box-shadow: 5px 5px 40px gray;
+
+  border-radius: 10px;
+}
+#baby-web {
+  border-left: 8px solid blue;
+}
+#full-web {
+  border-left: 8px solid #fb5200;
+}
+.lr-content,
+.rl-content h1 {
+  text-transform: capitalize;
+}
+.lr-content h3 {
+  color: orange;
+}
+footer p {
+  text-align: center;
+  padding: 15px;
 }
